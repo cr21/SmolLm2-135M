@@ -1,4 +1,5 @@
 # SmolLm2 - 135M From Scratch
+![SmolLM2-135M](SmolLm2_HF.png)
 - In this project, we will be training a [SmolLM2-135M](https://huggingface.co/HuggingFaceTB/SmolLM2-135M)  parameter model from scratch. 
 - We will demonstrate How Training is improving text generation quality as training progresses.
 
@@ -590,3 +591,10 @@ Model training progress can be assessed based on the following observations:
 
 ## Future Work
 - Trained over 2million steps (32 Billion tokens)
+
+
+## References
+- [SmolLM2-135M](https://huggingface.co/HuggingFaceTB/SmolLM2-135M)
+- [Cosmopedia-2](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus)
+- [cosmopedia](https://huggingface.co/blog/cosmopedia)
+- [smollm](https://huggingface.co/blog/smollm)
