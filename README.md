@@ -575,7 +575,7 @@ Model training progress can be assessed based on the following observations:
 - **Unintended Phrase Insertions:** Mid-training, words like *"United States"* or *"The World"* appear in unrelated contexts, likely due to noisy training data.
 - **Character Consistency:** The model is still inconsistent in character naming and their roles.
 
-## How it fared compared to original HuggingFace model
+## How it compared to original HuggingFace model
 - This  performance is acceptable for a model trained on 135M parameters from scratch, with no pre-training on any other dataset.
 - Original model on huggingface is trained on around `230 Billion tokens`, while we're able to train on (`1024*16*74003 = 1_212_465_152  tokens`)
 - roughly we trained on `0.5%` of the original dataset.
